@@ -1,0 +1,640 @@
+ 
+a:link , a:visited {
+	color: #e75023;
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: underline;
+	}
+a:active {
+	color: #e75023;
+	}
+
+.headingred { 
+	color:#e75023; 
+	font-size:16px; 
+	font-weight:bold; 
+	}
+.headinggrey { 
+	color:#646464; 
+	font-size:16px; 
+	font-weight:bold; 
+	}
+	
+img {
+		border: none;
+    }
+	
+h2 {
+	font-size:18px; 
+	color:#e75023;
+	}
+h3 {
+	font-size:14px; 
+	}	
+.red
+	{
+	color:#e75023;
+	}
+.grey
+	{
+	color:#646464; 
+	}
+.bigBold
+	{
+	font-size:larger;
+	font-weight:bold; 
+	}
+.content { 
+	font-family:Tahoma,Arial,Verdana,Helvetica,sans-serif; 
+	color:#646464; 
+	font-size:12px; 
+	line-height:16px; 
+	}
+
+.linecolour { 
+	background-color:#DEDEDE; 
+	}
+
+.initiate {
+	font-family: Arial, Helvetica, sans-serif;	
+	font-style: italic;	font-weight: bold;	
+	color: #CC0000;
+	}
+.initiate {
+	font-family: Arial, Helvetica, sans-serif;	
+	font-style: italic;	
+	font-weight: bold;	
+	color: #CC0000;
+	}
+	
+.floatImage {
+	float:left; 
+	padding-right: 30px; 
+	padding-bottom: 30px ;
+}
+.floatImageR {
+	float:right; 
+	padding-left: 30px; 
+	padding-bottom: 30px ;
+}
+
+.floatL {
+	float:left; 
+}
+
+.floatR {
+	float:right; 
+}
+
+.floatClear {
+	clear: both; 
+}
+
+.centre {
+	align: center;
+	text-align:center;
+}
+
+
+.posFooter	{
+	clear: both; 
+	padding-top:40px;
+	padding-bottom: 10px;
+}
+
+.bottom-video {
+	clear: both; 
+	width: 100%;
+	align: center;
+	text-align:center;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.left-column {
+	float: left;
+	width: 45%;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+
+.right-column {
+	float: right;
+	width: 45%;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#DEDEDE;		
+}
+
+/* gallery */
+#gallery_240_360
+{
+	width: 310px;
+	height: 360px;
+	}
+
+/* featured product */
+.feature-product {
+	margin-top:10px;
+	width:100%;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#DEDEDE;	
+
+	}
+
+.feature-text {
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:80px;
+	margin-right:100px;
+	}
+
+.feature-right {
+	clear: right;
+	float:right;
+	padding-bottom:15px;
+	}
+
+.feature-more {
+	text-align:center;
+	}
+
+/* navigation */
+.navigation {
+	font-family:Tahoma,Arial,Verdana,Helvetica,sans-serif; 
+	width: 100%;
+	height: 145px;
+	margin-top: 15px;
+	background-image: url("http://hobbyistsoftware.com/images/banner_background.jpg");	
+	}	
+
+.nav-column {
+	float: left;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	}
+	
+.logoImage {
+	float:left;
+	padding-left: 20px;
+	padding-top:10px;
+	}	
+
+.nav-header { 	
+	font-weight: bold;
+	color:#646464; 
+	font-size:10px; 
+	line-height:16px; 
+	margin: 0px;
+    padding: 0px;
+	}
+
+.nav-item { 	
+	color:#646464; 
+	}
+		
+a.nav-item:link {
+	color:#646464
+	}
+a.nav-item:visited {
+	color:#646464
+	}
+a.nav-item:hover {
+	color:#e75023;
+	}
+a.nav-item:active {
+	color:#e75023;
+	}
+	
+ul.arrow  {
+	margin: 0;    
+	padding: 0;    
+	list-style: none;
+	}
+	
+ul li.arrow {
+	height:16px;
+    background-image: url("banner_arrow.gif"); /* Replace bullet.gif with your img */
+    background-position: left top; /* Position bullet */
+    background-repeat: no-repeat;
+    padding-left: 10px; /* Add padding so text doesn't cover bullet img */
+	color:#646464; 
+	font-size:10px; 
+	line-height:16px;
+	text-align: left; 
+	}	
+
+/* footer */
+	
+.footer { 
+	color:#646464; 
+	font-size:10px; 
+	line-height:16px; 
+	font-weight: bold; 
+	}
+	
+/* images */
+
+
+img.framedThumb {
+	width:50px; 
+	height:50px; 
+	background:transparent url("http://hobbyistsoftware.com/images/home/icon_shadow.png") no-repeat 0 0; 
+	padding:7px; 
+	}
+	
+img.framed160 {
+	width:160px; 
+	height:160px; 
+	background:transparent url("http://hobbyistsoftware.com/images/home/icon_shadow_160.png") no-repeat 0 0; 
+	padding:7px; 
+	margin-right:20px;
+	}		
+	
+/* navbar hs site specific issues */		
+	
+.navbar { 
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family:Tahoma,Arial,Verdana,Helvetica,sans-serif; 
+	height: 35px; 
+	background-image:url(http://hobbyistsoftware.com/images/navbar_background.jpg);
+	color:#F7F7F7; 
+	font-size:10px; 
+	line-height:16px; 
+	}
+
+.navbarShadow {
+	height: 28px; 
+	width: 100%;
+	background-image:url(http://hobbyistsoftware.com/images/navbar_shadow.jpg);
+	background-repeat:repeat-x;
+	}
+
+.navbar form {
+	margin:0;
+	paddding:0;
+	}
+
+	
+.navbar-item {
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+	}
+
+.navbar-seperator {
+	width:2px;
+	height:35px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	background-image:url(http://hobbyistsoftware.com/images/navbar_line.jpg);
+	}
+
+
+.navbar-down {
+	position:relative;
+	top:7px;
+	}
+	
+.navbarform { 
+	width:150px; 
+	height:21px; 
+	border: 1px solid #D8D3D1; 
+	font-family: Tahoma,Arial,Verdana,Helvetica,sans-serif; 
+	color:#646464; 
+	font-size:10px; 
+	} 
+
+.navbar a:link {
+	color:#F7F7F7; 
+	}
+.navbar a:visited {
+	color:#F7F7F7; 
+	}
+.navbar a:hover {
+	color:#F7F7F7; 
+	}
+.navbar a:active {
+	color:#F7F7F7; 
+	}	
+	
+	
+	
+/* tabs */
+
+    #tabs ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 20px;
+		background: white;
+		float: left;
+		width: 100%;
+    }
+    
+	#tabs li {
+		float: left;
+		margin: 0 1em 0 0;
+    }
+	
+	#tabs img {
+		border: none;
+		margin-bottom: 2px;
+		margin-top: 2px;
+    }
+    
+	#tabs a {
+		text-decoration: none;
+		display: block;
+		width: 10em;
+		padding: 0 0.5em;
+		font-weight: bold;
+		color: black;
+		border-bottom: 0.5em solid  #646464;
+		color: #646464;
+    }
+	
+	#tabs a:hover {
+		color: #fa3;
+		border-color: #fa3;
+	}
+	
+	#tabs #selected a {
+		color: #e75023;
+		border-color: #e75023;
+		border-top: 1px solid;
+		border-left: 1px solid;
+		border-right: 1px solid;
+	}
+		
+/* frontpage links */
+
+    #front-tabs ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 20px;
+		background: white;
+		float: left;
+		width: 100%;
+    }
+    
+	#front-tabs li {
+		float: left;
+		margin: 0 1em 0 0;
+		color: black;
+		border: 1px solid #DEDEDE;;
+		color: #646464;
+		
+    }
+	
+	#front-tabs  li:hover {
+		border-color: #fa3;
+	}
+	
+	#front-tabs img {
+		border: 1px solid white;
+		margin-bottom: 2px;
+		margin-top: 2px;
+    }
+	
+	#front-tabs img:hover {
+		border: 1px solid #fa3;
+    }
+    
+	#front-tabs a {
+		text-decoration: none;
+		display: block;
+		padding: 0 0.5em;
+		font-weight: bold;
+	
+    }
+	
+	#front-tabs a:hover {
+		color: #fa3;
+	}
+
+	
+			
+
+/* navbar hs site specific issues */
+.contentred { 
+	color:#e75023; 
+	font-size:12px; 
+	line-height:16px; 
+	}	
+
+/* setup details */
+.infoBox {
+	border: thin double ;
+	border-color: #e75023;
+	text-align: center;
+	padding: 10px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+/*conditional stuff*/
+
+.posMiddle	{
+	background-color: #FFFFFF;
+	min-height:800px;
+	max-width: 910px;
+	position: relative;
+	left: 50%;
+	margin-left: -455px;
+}
+
+.posMainBody	{
+	clear:both;
+	max-width: 315px;
+	min-height:320px;
+	margin-left:30px;
+}
+
+body {
+	background-image : url(bg.gif);
+	background-color : #DEDEDE;
+	/*background-repeat : repeat-x;*/
+	background-attachment : scroll;
+	}
+
+.mobile {
+	display:none;
+}
+
+.midsize {
+	display:none;
+}
+
+.desktop {
+	display:inline;
+}
+
+@media screen and (min-device-width: 481px) { 
+
+.midsize {
+	display:inline;
+}
+
+.desktop {
+	display:none;
+}
+
+.posMiddle	{
+	position: inherit;
+	left: inherit;
+	margin-left: inherit;
+}
+	
+.posMainBody	{
+	margin-left:10px;
+	margin-right:10px;
+}		
+
+
+
+}
+
+@media screen and (min-device-width: 910px) { 
+
+.midsize {
+	display:none;
+}
+
+.desktop {
+	display:inline;
+}
+
+ul li.arrow { 
+	font-size: 10px;
+	line-height: 16px;
+	}
+
+
+.posMiddle	{
+	position: inherit;
+	left: inherit;
+	margin-left: inherit;
+}
+
+.posMiddle	{
+	position: relative;
+	left: 50%;
+	margin-left: -455px;
+}
+
+.posMainBody	{
+	margin-left:30px;
+}
+
+
+
+}
+
+@media screen and (max-device-width: 480px) { 
+
+body {
+	background-image:none;
+	background-color : white;
+	background-repeat:no-repeat;
+	background-attachment : scroll;
+	}
+
+.posMiddle	{
+	position: inherit;
+	left: inherit;
+	margin-left: inherit;
+}
+
+.posMainBody	{
+	width: 315px;
+	min-height:600px;
+	position: relative;
+	left: auto;
+	margin: 10px;
+}
+
+.desktop {
+	display:none;
+}
+
+.mobile {
+	display:inline;
+}
+
+.iLargerText {
+}
+
+.posFooter	{
+	display:none;
+}	
+.logoImage {
+	display:none;
+}
+.navbar {
+	display:none;
+}
+.navbarShadow {
+	width:100%;
+	display:none;
+}
+.gallery{
+	display:none;
+}
+
+
+
+body {
+	width:315px;
+}
+
+.left-intro {
+	clear: both;
+	width: 90%;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+
+.left-column {
+	clear: both;
+	width: 90%;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+
+.right-column {
+	clear: both;
+	width: 90%;
+	padding-left: 15px;
+	padding-right: 15px;	
+	border-left-style:none;
+}
+
+
+	
+.navigation {
+	font-family:Tahoma,Arial,Verdana,Helvetica,sans-serif; 
+	background-image : url("banner_background.jpg");
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding: 10px; 
+
+	padding: 10px; 	
+	width: 100%;
+	margin-top: 15px;
+	height: auto;
+}	
+
+}
+
